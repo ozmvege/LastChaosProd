@@ -1,0 +1,369 @@
+/* Basic Styles and Variables for Light Mode */
+.light-mode {
+    --background-color: #f9f9f9;
+    --text-color: #333;
+    --border-color: #ddd;
+    --highlight-color: #2980b9;
+    --reward-color: #e74c3c;
+    --note-color: #e74c3c;
+    --box-shadow: rgba(0, 0, 0, 0.1);
+    --font-family: Arial, sans-serif;
+    --outline-color: #2980b9; /* Light mode outline color */
+}
+.dark-mode {
+    --background-color: #333;
+    --text-color: #f9f9f9;
+    --border-color: #555;
+    --highlight-color: #85c1e9;
+    --reward-color: #f1948a;
+    --note-color: #f11a06;
+    --box-shadow: rgba(255, 255, 255, 0.1);
+    --font-family: "Lucida Sans", sans-serif;
+    --outline-color: #85c1e9; /* Dark mode outline color */
+}
+
+/* Default icon color (for dark mode) */
+.theme-icon-active use {
+    fill: white; /* White for dark mode */
+}
+
+/* Icon color in light mode */
+body.light-mode .theme-icon-active use {
+    fill: black; /* Black for light mode */
+}
+
+/* Icon color inside the dropdown, making sure they are filled */
+.bd-mode-toggle .dropdown-menu .theme-icon use {
+    fill: var(--text-color); /* Use the text color for icons inside the dropdown */
+}
+
+/* Adjust the color for the dropdown toggle icon */
+body.light-mode .bd-mode-toggle .dropdown-toggle .theme-icon-active use {
+    fill: black; /* Ensure the icon in the toggle button has correct fill in light mode */
+}
+
+/* Ensure the icon remains the same color even on hover (to avoid color change issues on hover) */
+.bd-mode-toggle .dropdown-menu .theme-icon:hover use {
+    fill: var(--highlight-color); /* Highlight color on hover */
+}
+
+/* Thinner border and outline for the dropdown button */
+.bd-mode-toggle button {
+    border: 1px solid transparent; /* Thinner border (1px) */
+    outline: 1px solid transparent; /* Thinner outline (1px) */
+    outline-color: var(--outline-color); /* Apply outline color from theme */
+    border-color: var(--outline-color); /* Apply outline color from theme */
+    transition: outline-color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+}
+
+/* Make the dropdown menu completely transparent */
+.bd-mode-toggle .dropdown-menu {
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove any borders */
+    box-shadow: none; /* Remove shadow to keep it flat */
+}
+
+/* Remove outline and border from dropdown items */
+.bd-mode-toggle .dropdown-item {
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+}
+
+/* Optional: highlight items on hover for visual effect */
+.bd-mode-toggle .dropdown-item:hover,
+.bd-mode-toggle .dropdown-item:focus {
+    background-color: var(--highlight-color); /* Highlight background on hover */
+    color: #fff; /* Ensure text is visible on hover */
+}
+
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-navbar {
+    background-color: var(--highlight-color);
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+  color: white;
+}
+
+.custom-spacing .nav-item {
+    margin-right: 5px; /* Adjust space between li's */
+}
+
+.custom-font-size .nav-link,
+.custom-font-size .dropdown-item {
+    font-size: 18px; /* Adjust the font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Apply background color from theme to dropdown */
+.dropdown-menu {
+    background-color: var(--background-color); /* Background from theme */
+    color: var(--text-color); /* Text color from theme */
+}
+
+/* Apply custom hover and active states if needed */
+.dropdown-menu .dropdown-item {
+    color: var(--text-color);
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    background-color: var(--highlight-color); /* Highlight color from theme */
+}
+
+
+/* Flex container for NPC summary and quest container */
+.main-content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+/* NPC Summary Styling */
+#npc-summary {
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 2px 5px var(--box-shadow);
+}
+
+#npc-summary h3 {
+    color: var(--highlight-color);
+    font-size: 1.2em;
+}
+
+/* Quest Container Styling */
+.quest-container {
+    width: 75%; /* Makes it larger than the completed container */
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px var(--box-shadow);
+    overflow-y: auto;
+    max-height: 90vh; /* Optional: Add scroll if content overflows */
+}
+
+/* Completed Container Styling */
+#completed-container {
+    width: 20%; /* Smaller than the quest container */
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px var(--box-shadow);
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+/* Headings for each container */
+.quest-container h2,
+#completed-container h2 {
+    color: var(--highlight-color);
+    border-bottom: 2px solid var(--highlight-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Quest div styling */
+.quest {
+    position: relative;
+    padding-right: 160px; /* Add space for the quest chain on the right */
+    margin-bottom: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px var(--box-shadow);
+}
+
+/* Quest chain container as a sidebar to the right */
+.quest-chain-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 180px;
+    background-color: var(--background-color); /* Adapts to light/dark mode */
+    color: var(--text-color); /* Adapts to light/dark text color */
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.85em;
+    box-shadow: 0 2px 5px var(--box-shadow);
+}
+
+/* Styling for quest chain title and list */
+.quest-chain-container strong {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    color: var(--text-color); /* Matches current text color */
+}
+
+.quest-chain-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quest-chain-container li {
+    margin-bottom: 4px;
+}
+
+/* Highlight for the active quest in the chain */
+.quest-chain-container .active-quest {
+    font-weight: bold;
+    color: var(--highlight-color); /* Uses highlight color for emphasis */
+}
+
+
+.quest h3 {
+    color: var(--highlight-color);
+}
+
+.quest p {
+    margin: 5px 0;
+}
+
+/*
+.quest .reward {
+    color: var(--reward-color);
+    font-weight: bold;
+}
+*/
+
+.quest .note strong {
+    color: var(--note-color);
+}
+
+/* Container for welcome message */
+.container-welcome {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.warning-user {
+    color: #c0392b;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.instruction {
+    color: #333;
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+
+/* Reset Button Styling */
+#reset-button {
+    display: block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--highlight-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#reset-button:hover {
+    background-color: #1c6693; /* Slightly darker shade for hover effect */
+}
+
+/* Complete Button Styling */
+.complete-button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #28a745; /* Green to signify completion */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.complete-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-2px);
+}
+
+.changelog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--background-color); /* Use background color from theme */
+    color: var(--text-color); /* Use text color from theme */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px var(--box-shadow); /* Use box-shadow from theme */
+}
+
+.patch {
+    margin-bottom: 30px;
+}
+
+.patch h2 {
+    font-size: 1.5em;
+    color: var(--highlight-color); /* Use highlight color from theme */
+    border-bottom: 2px solid var(--border-color); /* Use border color from theme */
+    padding-bottom: 10px;
+}
+
+.patch p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.patch ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.patch ul li {
+    margin: 5px 0;
+}
+
+.patch .date {
+    font-size: 0.9em;
+    color: var(--text-color); /* Use text color for date */
+    margin-bottom: 15px;
+}
+
+#completed-container .quest h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+#completed-container .quest .quest-chain-container {
+    margin: 0 auto;
+    padding: 10px;
+    border: none; /* No border in the completed section */
+    border-radius: 0; /* Optional: Remove border radius for a cleaner look */
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+

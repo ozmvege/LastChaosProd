@@ -1,0 +1,827 @@
+[
+    {
+        "P2 Level": 1,
+        "Transferable EXP": 327,
+        "Percentage gained": 0.5
+    },
+    {
+        "P2 Level": 2,
+        "Transferable EXP": 356,
+        "Percentage gained": 0.5
+    },
+    {
+        "P2 Level": 3,
+        "Transferable EXP": 388,
+        "Percentage gained": 0.5
+    },
+    {
+        "P2 Level": 4,
+        "Transferable EXP": 423,
+        "Percentage gained": 0.5
+    },
+    {
+        "P2 Level": 5,
+        "Transferable EXP": 461,
+        "Percentage gained": 0.5
+    },
+    {
+        "P2 Level": 6,
+        "Transferable EXP": 492,
+        "Percentage gained": 0.49
+    },
+    {
+        "P2 Level": 7,
+        "Transferable EXP": 537,
+        "Percentage gained": 0.49
+    },
+    {
+        "P2 Level": 8,
+        "Transferable EXP": 585,
+        "Percentage gained": 0.49
+    },
+    {
+        "P2 Level": 9,
+        "Transferable EXP": 638,
+        "Percentage gained": 0.49
+    },
+    {
+        "P2 Level": 10,
+        "Transferable EXP": 695,
+        "Percentage gained": 0.49
+    },
+    {
+        "P2 Level": 11,
+        "Transferable EXP": 758,
+        "Percentage gained": 0.49
+    },
+    {
+        "P2 Level": 12,
+        "Transferable EXP": 809,
+        "Percentage gained": 0.48
+    },
+    {
+        "P2 Level": 13,
+        "Transferable EXP": 882,
+        "Percentage gained": 0.48
+    },
+    {
+        "P2 Level": 14,
+        "Transferable EXP": 962,
+        "Percentage gained": 0.48
+    },
+    {
+        "P2 Level": 15,
+        "Transferable EXP": 1048,
+        "Percentage gained": 0.48
+    },
+    {
+        "P2 Level": 16,
+        "Transferable EXP": 1143,
+        "Percentage gained": 0.48
+    },
+    {
+        "P2 Level": 17,
+        "Transferable EXP": 1220,
+        "Percentage gained": 0.47
+    },
+    {
+        "P2 Level": 18,
+        "Transferable EXP": 1330,
+        "Percentage gained": 0.47
+    },
+    {
+        "P2 Level": 19,
+        "Transferable EXP": 1449,
+        "Percentage gained": 0.47
+    },
+    {
+        "P2 Level": 20,
+        "Transferable EXP": 1580,
+        "Percentage gained": 0.47
+    },
+    {
+        "P2 Level": 21,
+        "Transferable EXP": 1722,
+        "Percentage gained": 0.47
+    },
+    {
+        "P2 Level": 22,
+        "Transferable EXP": 1877,
+        "Percentage gained": 0.47
+    },
+    {
+        "P2 Level": 23,
+        "Transferable EXP": 2002,
+        "Percentage gained": 0.46
+    },
+    {
+        "P2 Level": 24,
+        "Transferable EXP": 2183,
+        "Percentage gained": 0.46
+    },
+    {
+        "P2 Level": 25,
+        "Transferable EXP": 2379,
+        "Percentage gained": 0.46
+    },
+    {
+        "P2 Level": 26,
+        "Transferable EXP": 2593,
+        "Percentage gained": 0.46
+    },
+    {
+        "P2 Level": 27,
+        "Transferable EXP": 2827,
+        "Percentage gained": 0.46
+    },
+    {
+        "P2 Level": 28,
+        "Transferable EXP": 3015,
+        "Percentage gained": 0.45
+    },
+    {
+        "P2 Level": 29,
+        "Transferable EXP": 3286,
+        "Percentage gained": 0.45
+    },
+    {
+        "P2 Level": 30,
+        "Transferable EXP": 3582,
+        "Percentage gained": 0.45
+    },
+    {
+        "P2 Level": 31,
+        "Transferable EXP": 3904,
+        "Percentage gained": 0.45
+    },
+    {
+        "P2 Level": 32,
+        "Transferable EXP": 4255,
+        "Percentage gained": 0.45
+    },
+    {
+        "P2 Level": 33,
+        "Transferable EXP": 4639,
+        "Percentage gained": 0.45
+    },
+    {
+        "P2 Level": 34,
+        "Transferable EXP": 4944,
+        "Percentage gained": 0.44
+    },
+    {
+        "P2 Level": 35,
+        "Transferable EXP": 5389,
+        "Percentage gained": 0.44
+    },
+    {
+        "P2 Level": 36,
+        "Transferable EXP": 5874,
+        "Percentage gained": 0.44
+    },
+    {
+        "P2 Level": 37,
+        "Transferable EXP": 6402,
+        "Percentage gained": 0.44
+    },
+    {
+        "P2 Level": 38,
+        "Transferable EXP": 6979,
+        "Percentage gained": 0.44
+    },
+    {
+        "P2 Level": 39,
+        "Transferable EXP": 7434,
+        "Percentage gained": 0.43
+    },
+    {
+        "P2 Level": 40,
+        "Transferable EXP": 8103,
+        "Percentage gained": 0.43
+    },
+    {
+        "P2 Level": 41,
+        "Transferable EXP": 8832,
+        "Percentage gained": 0.43
+    },
+    {
+        "P2 Level": 42,
+        "Transferable EXP": 9627,
+        "Percentage gained": 0.43
+    },
+    {
+        "P2 Level": 43,
+        "Transferable EXP": 10494,
+        "Percentage gained": 0.43
+    },
+    {
+        "P2 Level": 44,
+        "Transferable EXP": 11438,
+        "Percentage gained": 0.43
+    },
+    {
+        "P2 Level": 45,
+        "Transferable EXP": 12178,
+        "Percentage gained": 0.42
+    },
+    {
+        "P2 Level": 46,
+        "Transferable EXP": 13274,
+        "Percentage gained": 0.42
+    },
+    {
+        "P2 Level": 47,
+        "Transferable EXP": 14469,
+        "Percentage gained": 0.42
+    },
+    {
+        "P2 Level": 48,
+        "Transferable EXP": 15771,
+        "Percentage gained": 0.42
+    },
+    {
+        "P2 Level": 49,
+        "Transferable EXP": 17190,
+        "Percentage gained": 0.42
+    },
+    {
+        "P2 Level": 50,
+        "Transferable EXP": 18291,
+        "Percentage gained": 0.41
+    },
+    {
+        "P2 Level": 51,
+        "Transferable EXP": 19937,
+        "Percentage gained": 0.41
+    },
+    {
+        "P2 Level": 52,
+        "Transferable EXP": 21732,
+        "Percentage gained": 0.41
+    },
+    {
+        "P2 Level": 53,
+        "Transferable EXP": 23688,
+        "Percentage gained": 0.41
+    },
+    {
+        "P2 Level": 54,
+        "Transferable EXP": 25820,
+        "Percentage gained": 0.41
+    },
+    {
+        "P2 Level": 55,
+        "Transferable EXP": 28144,
+        "Percentage gained": 0.41
+    },
+    {
+        "P2 Level": 56,
+        "Transferable EXP": 29929,
+        "Percentage gained": 0.4
+    },
+    {
+        "P2 Level": 57,
+        "Transferable EXP": 32622,
+        "Percentage gained": 0.4
+    },
+    {
+        "P2 Level": 58,
+        "Transferable EXP": 35558,
+        "Percentage gained": 0.4
+    },
+    {
+        "P2 Level": 59,
+        "Transferable EXP": 38758,
+        "Percentage gained": 0.4
+    },
+    {
+        "P2 Level": 60,
+        "Transferable EXP": 42247,
+        "Percentage gained": 0.4
+    },
+    {
+        "P2 Level": 61,
+        "Transferable EXP": 44898,
+        "Percentage gained": 0.39
+    },
+    {
+        "P2 Level": 62,
+        "Transferable EXP": 48939,
+        "Percentage gained": 0.39
+    },
+    {
+        "P2 Level": 63,
+        "Transferable EXP": 53343,
+        "Percentage gained": 0.39
+    },
+    {
+        "P2 Level": 64,
+        "Transferable EXP": 58144,
+        "Percentage gained": 0.39
+    },
+    {
+        "P2 Level": 65,
+        "Transferable EXP": 63377,
+        "Percentage gained": 0.39
+    },
+    {
+        "P2 Level": 66,
+        "Transferable EXP": 69081,
+        "Percentage gained": 0.39
+    },
+    {
+        "P2 Level": 67,
+        "Transferable EXP": 73368,
+        "Percentage gained": 0.38
+    },
+    {
+        "P2 Level": 68,
+        "Transferable EXP": 79971,
+        "Percentage gained": 0.38
+    },
+    {
+        "P2 Level": 69,
+        "Transferable EXP": 87168,
+        "Percentage gained": 0.38
+    },
+    {
+        "P2 Level": 70,
+        "Transferable EXP": 95014,
+        "Percentage gained": 0.38
+    },
+    {
+        "P2 Level": 71,
+        "Transferable EXP": 103565,
+        "Percentage gained": 0.38
+    },
+    {
+        "P2 Level": 72,
+        "Transferable EXP": 109915,
+        "Percentage gained": 0.37
+    },
+    {
+        "P2 Level": 73,
+        "Transferable EXP": 119808,
+        "Percentage gained": 0.37
+    },
+    {
+        "P2 Level": 74,
+        "Transferable EXP": 130591,
+        "Percentage gained": 0.37
+    },
+    {
+        "P2 Level": 75,
+        "Transferable EXP": 142344,
+        "Percentage gained": 0.37
+    },
+    {
+        "P2 Level": 76,
+        "Transferable EXP": 155155,
+        "Percentage gained": 0.37
+    },
+    {
+        "P2 Level": 77,
+        "Transferable EXP": 169118,
+        "Percentage gained": 0.37
+    },
+    {
+        "P2 Level": 78,
+        "Transferable EXP": 179357,
+        "Percentage gained": 0.36
+    },
+    {
+        "P2 Level": 79,
+        "Transferable EXP": 195499,
+        "Percentage gained": 0.36
+    },
+    {
+        "P2 Level": 80,
+        "Transferable EXP": 213095,
+        "Percentage gained": 0.36
+    },
+    {
+        "P2 Level": 81,
+        "Transferable EXP": 232273,
+        "Percentage gained": 0.36
+    },
+    {
+        "P2 Level": 82,
+        "Transferable EXP": 253178,
+        "Percentage gained": 0.36
+    },
+    {
+        "P2 Level": 83,
+        "Transferable EXP": 268298,
+        "Percentage gained": 0.35
+    },
+    {
+        "P2 Level": 84,
+        "Transferable EXP": 292445,
+        "Percentage gained": 0.35
+    },
+    {
+        "P2 Level": 85,
+        "Transferable EXP": 318765,
+        "Percentage gained": 0.35
+    },
+    {
+        "P2 Level": 86,
+        "Transferable EXP": 347454,
+        "Percentage gained": 0.35
+    },
+    {
+        "P2 Level": 87,
+        "Transferable EXP": 378725,
+        "Percentage gained": 0.35
+    },
+    {
+        "P2 Level": 88,
+        "Transferable EXP": 412810,
+        "Percentage gained": 0.35
+    },
+    {
+        "P2 Level": 89,
+        "Transferable EXP": 437107,
+        "Percentage gained": 0.34
+    },
+    {
+        "P2 Level": 90,
+        "Transferable EXP": 476447,
+        "Percentage gained": 0.34
+    },
+    {
+        "P2 Level": 91,
+        "Transferable EXP": 519327,
+        "Percentage gained": 0.34
+    },
+    {
+        "P2 Level": 92,
+        "Transferable EXP": 566067,
+        "Percentage gained": 0.34
+    },
+    {
+        "P2 Level": 93,
+        "Transferable EXP": 617012,
+        "Percentage gained": 0.34
+    },
+    {
+        "P2 Level": 94,
+        "Transferable EXP": 652763,
+        "Percentage gained": 0.33
+    },
+    {
+        "P2 Level": 95,
+        "Transferable EXP": 711512,
+        "Percentage gained": 0.33
+    },
+    {
+        "P2 Level": 96,
+        "Transferable EXP": 775548,
+        "Percentage gained": 0.33
+    },
+    {
+        "P2 Level": 97,
+        "Transferable EXP": 845347,
+        "Percentage gained": 0.33
+    },
+    {
+        "P2 Level": 98,
+        "Transferable EXP": 921428,
+        "Percentage gained": 0.33
+    },
+    {
+        "P2 Level": 99,
+        "Transferable EXP": 1004357,
+        "Percentage gained": 0.33
+    },
+    {
+        "P2 Level": 100,
+        "Transferable EXP": 1061575,
+        "Percentage gained": 0.32
+    },
+    {
+        "P2 Level": 101,
+        "Transferable EXP": 1092522,
+        "Percentage gained": 0.32
+    },
+    {
+        "P2 Level": 102,
+        "Transferable EXP": 1136224,
+        "Percentage gained": 0.32
+    },
+    {
+        "P2 Level": 103,
+        "Transferable EXP": 1181672,
+        "Percentage gained": 0.32
+    },
+    {
+        "P2 Level": 104,
+        "Transferable EXP": 1228939,
+        "Percentage gained": 0.32
+    },
+    {
+        "P2 Level": 105,
+        "Transferable EXP": 1238156,
+        "Percentage gained": 0.31
+    },
+    {
+        "P2 Level": 106,
+        "Transferable EXP": 1287682,
+        "Percentage gained": 0.31
+    },
+    {
+        "P2 Level": 107,
+        "Transferable EXP": 1339190,
+        "Percentage gained": 0.31
+    },
+    {
+        "P2 Level": 108,
+        "Transferable EXP": 1392758,
+        "Percentage gained": 0.31
+    },
+    {
+        "P2 Level": 109,
+        "Transferable EXP": 1448468,
+        "Percentage gained": 0.31
+    },
+    {
+        "P2 Level": 110,
+        "Transferable EXP": 1506407,
+        "Percentage gained": 0.31
+    },
+    {
+        "P2 Level": 111,
+        "Transferable EXP": 1516125,
+        "Percentage gained": 0.3
+    },
+    {
+        "P2 Level": 112,
+        "Transferable EXP": 1576770,
+        "Percentage gained": 0.3
+    },
+    {
+        "P2 Level": 113,
+        "Transferable EXP": 1639841,
+        "Percentage gained": 0.3
+    },
+    {
+        "P2 Level": 114,
+        "Transferable EXP": 1705435,
+        "Percentage gained": 0.3
+    },
+    {
+        "P2 Level": 115,
+        "Transferable EXP": 1773652,
+        "Percentage gained": 0.3
+    },
+    {
+        "P2 Level": 116,
+        "Transferable EXP": 1783112,
+        "Percentage gained": 0.29
+    },
+    {
+        "P2 Level": 117,
+        "Transferable EXP": 1854436,
+        "Percentage gained": 0.29
+    },
+    {
+        "P2 Level": 118,
+        "Transferable EXP": 1928614,
+        "Percentage gained": 0.29
+    },
+    {
+        "P2 Level": 119,
+        "Transferable EXP": 2005758,
+        "Percentage gained": 0.29
+    },
+    {
+        "P2 Level": 120,
+        "Transferable EXP": 2085989,
+        "Percentage gained": 0.29
+    },
+    {
+        "P2 Level": 121,
+        "Transferable EXP": 2169428,
+        "Percentage gained": 0.29
+    },
+    {
+        "P2 Level": 122,
+        "Transferable EXP": 2178405,
+        "Percentage gained": 0.28
+    },
+    {
+        "P2 Level": 123,
+        "Transferable EXP": 2265541,
+        "Percentage gained": 0.28
+    },
+    {
+        "P2 Level": 124,
+        "Transferable EXP": 2356165,
+        "Percentage gained": 0.28
+    },
+    {
+        "P2 Level": 125,
+        "Transferable EXP": 2450402,
+        "Percentage gained": 0.28
+    },
+    {
+        "P2 Level": 126,
+        "Transferable EXP": 2548418,
+        "Percentage gained": 0.28
+    },
+    {
+        "P2 Level": 127,
+        "Transferable EXP": 2555699,
+        "Percentage gained": 0.27
+    },
+    {
+        "P2 Level": 128,
+        "Transferable EXP": 2657927,
+        "Percentage gained": 0.27
+    },
+    {
+        "P2 Level": 129,
+        "Transferable EXP": 2764244,
+        "Percentage gained": 0.27
+    },
+    {
+        "P2 Level": 130,
+        "Transferable EXP": 2874814,
+        "Percentage gained": 0.27
+    },
+    {
+        "P2 Level": 131,
+        "Transferable EXP": 2989806,
+        "Percentage gained": 0.27
+    },
+    {
+        "P2 Level": 132,
+        "Transferable EXP": 3109409,
+        "Percentage gained": 0.27
+    },
+    {
+        "P2 Level": 133,
+        "Transferable EXP": 3114016,
+        "Percentage gained": 0.26
+    },
+    {
+        "P2 Level": 134,
+        "Transferable EXP": 3238576,
+        "Percentage gained": 0.26
+    },
+    {
+        "P2 Level": 135,
+        "Transferable EXP": 3368119,
+        "Percentage gained": 0.26
+    },
+    {
+        "P2 Level": 136,
+        "Transferable EXP": 3502844,
+        "Percentage gained": 0.26
+    },
+    {
+        "P2 Level": 137,
+        "Transferable EXP": 3642958,
+        "Percentage gained": 0.26
+    },
+    {
+        "P2 Level": 138,
+        "Transferable EXP": 3642958,
+        "Percentage gained": 0.25
+    },
+    {
+        "P2 Level": 139,
+        "Transferable EXP": 3788676,
+        "Percentage gained": 0.25
+    },
+    {
+        "P2 Level": 140,
+        "Transferable EXP": 3940223,
+        "Percentage gained": 0.25
+    },
+    {
+        "P2 Level": 141,
+        "Transferable EXP": 4097832,
+        "Percentage gained": 0.25
+    },
+    {
+        "P2 Level": 142,
+        "Transferable EXP": 4261746,
+        "Percentage gained": 0.25
+    },
+    {
+        "P2 Level": 143,
+        "Transferable EXP": 4432216,
+        "Percentage gained": 0.25
+    },
+    {
+        "P2 Level": 144,
+        "Transferable EXP": 4425124,
+        "Percentage gained": 0.24
+    },
+    {
+        "P2 Level": 145,
+        "Transferable EXP": 4602129,
+        "Percentage gained": 0.24
+    },
+    {
+        "P2 Level": 146,
+        "Transferable EXP": 4786213,
+        "Percentage gained": 0.24
+    },
+    {
+        "P2 Level": 147,
+        "Transferable EXP": 4977662,
+        "Percentage gained": 0.24
+    },
+    {
+        "P2 Level": 148,
+        "Transferable EXP": 5176769,
+        "Percentage gained": 0.24
+    },
+    {
+        "P2 Level": 149,
+        "Transferable EXP": 5159513,
+        "Percentage gained": 0.23
+    },
+    {
+        "P2 Level": 150,
+        "Transferable EXP": 5365894,
+        "Percentage gained": 0.23
+    },
+    {
+        "P2 Level": 151,
+        "Transferable EXP": 5580529,
+        "Percentage gained": 0.23
+    },
+    {
+        "P2 Level": 152,
+        "Transferable EXP": 5803751,
+        "Percentage gained": 0.23
+    },
+    {
+        "P2 Level": 153,
+        "Transferable EXP": 6035901,
+        "Percentage gained": 0.23
+    },
+    {
+        "P2 Level": 154,
+        "Transferable EXP": 6277337,
+        "Percentage gained": 0.23
+    },
+    {
+        "P2 Level": 155,
+        "Transferable EXP": 6244586,
+        "Percentage gained": 0.22
+    },
+    {
+        "P2 Level": 156,
+        "Transferable EXP": 6494368,
+        "Percentage gained": 0.22
+    },
+    {
+        "P2 Level": 157,
+        "Transferable EXP": 6754143,
+        "Percentage gained": 0.22
+    },
+    {
+        "P2 Level": 158,
+        "Transferable EXP": 7024309,
+        "Percentage gained": 0.22
+    },
+    {
+        "P2 Level": 159,
+        "Transferable EXP": 7305282,
+        "Percentage gained": 0.22
+    },
+    {
+        "P2 Level": 160,
+        "Transferable EXP": 7252152,
+        "Percentage gained": 0.21
+    },
+    {
+        "P2 Level": 161,
+        "Transferable EXP": 7542239,
+        "Percentage gained": 0.21
+    },
+    {
+        "P2 Level": 162,
+        "Transferable EXP": 7843928,
+        "Percentage gained": 0.21
+    },
+    {
+        "P2 Level": 163,
+        "Transferable EXP": 8157685,
+        "Percentage gained": 0.21
+    },
+    {
+        "P2 Level": 164,
+        "Transferable EXP": 8483993,
+        "Percentage gained": 0.21
+    },
+    {
+        "P2 Level": 165,
+        "Transferable EXP": 8823352,
+        "Percentage gained": 0.0
+    }
+]
