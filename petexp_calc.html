@@ -111,7 +111,7 @@
 
 <div class="main-content">
   <div class="petcdcalc">
-    <h1>Level-Up Action Calculator</h1>
+    <h1>Pet Cooldown Calculator</h1>
     <p>Select your current and target levels to calculate the required actions.</p>
 
     <label for="currentLevel">Current Level:</label>
@@ -126,7 +126,7 @@
   </div>
 </div>
 <script>
-        let levelData = [];
+let levelData = [];
 
 // Fetch JSON data
 fetch('data/levels_updated.json')
@@ -262,26 +262,6 @@ function toggleThemeMenu() {
 }
 
 toggleThemeMenu();
-
-
-
-    // JavaScript to collect NPCs and display them
-    document.addEventListener("DOMContentLoaded", function () {
-        const npcList = new Set();
-        const npcElements = document.querySelectorAll("[data-npc]");
-
-        // Collect each unique NPC name from data-npc attributes
-        npcElements.forEach(el => npcList.add(el.getAttribute("data-npc")));
-
-        // Display NPCs in the #npc-list element
-        const npcListContainer = document.getElementById("npc-list");
-        npcList.forEach(npc => {
-            const listItem = document.createElement("li");
-            listItem.textContent = npc;
-            npcListContainer.appendChild(listItem);
-        });
-    });
-
 </script>      
 </body>
 </html>
