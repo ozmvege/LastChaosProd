@@ -4,28 +4,11 @@ RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 <IfModule mod_headers.c>
-    <FilesMatch "\.(js|css|json)$">
+    <FilesMatch "\.(js|css|json|php)$">
         Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
     </FilesMatch>
 </IfModule>
 
-<Directory "/data">
-    Require all denied
-</Directory>
-
 <Files "get-levels.php">
-    <If "%{REQUEST_URI} =~ m#^/get-levels\.php$#">
-        Require all granted
-    </If>
-    <Else>
-        Require all denied
-    </Else>
+    Require all granted
 </Files>
-
-Options -Indexes
-
-<IfModule mod_headers.c>
-    Header set X-Content-Type-Options "nosniff"
-    Header set X-Frame-Options "DENY"
-    Header set X-XSS-Protection "1; mode=block"
-</IfModule>

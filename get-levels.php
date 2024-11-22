@@ -1,6 +1,6 @@
 <?php
 // Path to the JSON file
-$filePath = '../data/levels_updated.json';
+$filePath = 'data/levels_updated.json';
 
 // Serve the file securely
 if (file_exists($filePath)) {
