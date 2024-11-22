@@ -1,6 +1,6 @@
 <?php
 
-if ($_SERVER['HTTP_REFERER'] !== 'https://vegoz.info/petexp_calc.html') {
+if ($_SERVER['HTTP_REFERER'] !== 'https://vegoz.info/petexp_calc') {
     http_response_code(403);
     echo "Access denied";
     exit;
