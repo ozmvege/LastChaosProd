@@ -8,3 +8,8 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
         Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
     </FilesMatch>
 </IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^data/ - [F,L]
+</IfModule>
