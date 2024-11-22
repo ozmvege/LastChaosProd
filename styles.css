@@ -365,9 +365,105 @@ body {
     border-radius: 0; /* Optional: Remove border radius for a cleaner look */
     background-color: var(--background-color);
     color: var(--text-color);
-<<<<<<< HEAD
 }
 
-=======
+/* Flex container for the entire petcdcalc */
+.petcdcalc {
+    text-align: center; /* Center text inside the menu */
+    max-width: 600px; /* Limit width for better readability */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    background-color: var(--background-color); /* Ensure theme consistency */
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--box-shadow); /* Add shadow for depth */
+    position: relative;
+    top: calc(50vh - 100px); /* Adjust vertical centering (100px for navbar) */
+    transform: translateY(-50%);
+    min-height: 450px; /* Ensure there's more space */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: flex-start; /* Stack elements from the top */
+    gap: 20px; /* Add some space between elements */
 }
->>>>>>> 7555a56dd6fa2a85cebb91d6dd8b4706befa9fb3
+
+/* Result section that stays at the bottom */
+.resultcd {
+    margin-top: auto; /* Pushes the result to the bottom */
+    padding: 20px; /* Adds padding to the result box */
+    background-color: var(--background-color); /* Ensure theme consistency */
+    border: 1px solid var(--border-color); /* Border for the result section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px var(--box-shadow); /* Add shadow for depth */
+}
+
+
+/* Flex container for each row */
+.dropdown-row {
+    display: flex; /* Align items in a row */
+    align-items: center; /* Vertically center items */
+    gap: 10px; /* Add spacing between items */
+    margin-bottom: 15px; /* Space between rows */
+}
+
+/* Labels with fixed width for alignment */
+.dropdown-label {
+    font-size: 1em; /* Keep font size consistent */
+    font-weight: bold; /* Emphasize labels */
+    color: var(--text-color); /* Match theme */
+    white-space: nowrap; /* Prevent text wrapping */
+    width: 120px; /* Fixed width for alignment */
+    text-align: left; /* Optional: Align text to the left */
+}
+
+/* Dropdown Select styles */
+.dropdown-select {
+    flex: 1; /* Ensure dropdown takes up remaining space */
+    max-width: 300px; /* Optional: Limit max width */
+    padding: 8px 12px; /* Add padding for readability */
+    font-size: 1em; /* Match font size */
+    color: var(--text-color); /* Match theme text color */
+    background-color: var(--background-color); /* Match theme background */
+    border: 1px solid var(--border-color); /* Add a border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px var(--box-shadow); /* Subtle shadow */
+    appearance: none; /* Remove default dropdown styles */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth interactions */
+}
+
+.dropdown-select:focus {
+    border-color: var(--highlight-color); /* Highlight on focus */
+    box-shadow: 0 0 5px var(--highlight-color); /* Glow effect */
+    outline: none; /* Remove default outline */
+}
+
+/* Button Row */
+.button-row {
+    text-align: center; /* Center-align the button */
+    margin-top: 15px; /* Add space above the button */
+}
+
+/* Button styles */
+.action-button {
+    padding: 10px 20px; /* Comfortable padding */
+    font-size: 1em; /* Match font size */
+    font-weight: bold; /* Emphasize text */
+    color: #fff; /* White text for visibility */
+    background-color: var(--highlight-color); /* Theme color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth interactions */
+}
+
+.action-button:hover {
+    background-color: #1c6693; /* Slightly darker on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 6px var(--box-shadow); /* Add shadow */
+}
+
+.action-button:active {
+    transform: translateY(0); /* Lower button when clicked */
+    box-shadow: 0 2px 4px var(--box-shadow); /* Reduce shadow */
+}

@@ -114,15 +114,21 @@
     <h1>Pet Cooldown Calculator</h1>
     <p>Select your current and target levels to calculate the required actions.</p>
 
-    <label for="currentLevel">Current Level:</label>
-    <select id="currentLevel"></select>
+    <div class="dropdown-row">
+        <label for="currentLevel" class="dropdown-label">Current Level:</label>
+        <select id="currentLevel" class="dropdown-select"></select>
+    </div>
+  
+    <div class="dropdown-row">
+        <label for="targetLevel" class="dropdown-label">Target Level:   </label>
+        <select id="targetLevel" class="dropdown-select"></select>
+    </div>
 
-    <label for="targetLevel">Target Level:</label>
-    <select id="targetLevel"></select>
-
-    <button onclick="calculateActions()">Calculate</button>
-
-    <div id="result"></div>
+    <div class="button-row">
+      <button onclick="calculateActions()" class="action-button">Calculate</button>
+    </div>
+  
+    <div id="resultcd"></div>
   </div>
 </div>
 <script>
@@ -153,7 +159,7 @@ function calculateActions() {
     const targetLevel = parseInt(document.getElementById('targetLevel').value);
 
     if (currentLevel >= targetLevel) {
-        document.getElementById('result').textContent = "Target level must be higher than current level.";
+        document.getElementById('resultcd').textContent = "Target level must be higher than current level.";
         return;
     }
 
@@ -174,8 +180,8 @@ function calculateActions() {
         }
     }
 
-    resultText = `\nTotal skips required: ${totalSkips}`;
-    document.getElementById('result').textContent = resultText;
+    resultText = `\n${totalSkips} Total Pet CD Removers Required`;
+    document.getElementById('resultcd').textContent = resultText;
 }
 
 const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
