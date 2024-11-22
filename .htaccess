@@ -9,6 +9,7 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
     </FilesMatch>
 </IfModule>
 
+# Alternatively, if .htaccess is in the root directory
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteRule ^data/ - [F,L]
