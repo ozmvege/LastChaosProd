@@ -9,8 +9,23 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
     </FilesMatch>
 </IfModule>
 
-# Alternatively, if .htaccess is in the root directory
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteRule ^data/ - [F,L]
+<Directory "/data">
+    Require all denied
+</Directory>
+
+<Files "get-levels.php">
+    <If "%{REQUEST_URI} =~ m#^/get-levels\.php$#">
+        Require all granted
+    </If>
+    <Else>
+        Require all denied
+    </Else>
+</Files>
+
+Options -Indexes
+
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "DENY"
+    Header set X-XSS-Protection "1; mode=block"
 </IfModule>
