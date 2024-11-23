@@ -1,0 +1,51 @@
+<div id="main-content"> 
+    <table>
+        <tbody>
+            <tr>
+                <td class="t"><label>Pet evolution:</label></td>
+                <td class="t">
+                    <select id="evo">
+                        <option value="0">Stage 1</option>
+                        <option value="1">Stage 2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="t">Pet level: </td>
+                <td class="t">
+                    <input type="number" id="level" min="1" max="165" step="1" required="">
+                </td>
+            </tr>
+            <tr>
+                <td class="t"></td>
+                <td class="t">
+                    <button onclick="calculateexp()">Calculate</button>
+                </td>
+            </tr>      
+        </tbody>
+    </table>
+    <br>
+    <div class="d" id="result">EXP accumulation rate:  <b>117.17%</b><br>EXP percentage given to character: <b>24.76%</b></div>
+</div>
+
+<script>
+    function calculateexp() {
+        var pcol, pgiv;
+        var e = document.getElementById("evo").value;
+        var l = Number(document.getElementById("level").value);
+        
+        if (e == 0) {
+            pcol = 20 + 0.49 * l;
+            pgiv = 0.09 * l + 5;
+        }
+
+        if (e == 1) {
+            pcol = 20 + 0.79 * l;
+            pgiv = 0.12 * l + 10;
+        }
+
+        document.getElementById('result').innerHTML = 
+            "EXP accumulation rate: <b>" + pcol.toFixed(2) + "%</b><br>" +
+            "EXP percentage given to character: <b>" + pgiv.toFixed(2) + "%</b>";
+    }
+</script>

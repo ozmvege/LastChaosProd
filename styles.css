@@ -1,17 +1,23 @@
 @media (max-width: 768px) {
     .navbar-brand {
-        position: absolute;
-        right: 10px; /* Aligns the logo to the right edge */
-        top: 10px; /* Vertically aligns the logo */
+        display: flex; /* Ensures the content inside is flex-aligned */
+        align-items: center; /* Vertically centers the logo */
+        justify-content: center; /* Optional: Horizontally centers if needed */
+        padding: 0; /* Remove unnecessary padding */
+        height: 100%; /* Ensure it stretches to the full navbar height */
     }
+    
+    .navbar {
+        display: flex; /* Ensures consistent alignment across elements */
+        align-items: center; /* Vertically centers all children in the navbar */
+        padding: 0.5rem 1rem; /* Adjust padding for better spacing */
+    }
+    
     .navbar-toggler {
-        margin-left: 0; /* Ensures toggler is on the left */
-    }
-    .navbar-toggler-icon {
-        margin-right: 0; /* Prevents unexpected spacing */
+        margin: 0; /* Reset margins */
+        height: auto; /* Ensure consistent height with other elements */
     }
 }
-
 
 /* Basic Styles and Variables for Light Mode */
 .light-mode {
@@ -47,6 +53,12 @@ body.light-mode .theme-icon-active use {
     fill: black; /* Black for light mode */
 }
 
+
+.bd-mode-toggle {
+    position: relative; /* Ensure the dropdown can render properly */
+    z-index: 1070; /* Slightly lower than the dropdown itself */
+}
+
 /* Icon color inside the dropdown, making sure they are filled */
 .bd-mode-toggle .dropdown-menu .theme-icon use {
     fill: var(--text-color); /* Use the text color for icons inside the dropdown */
@@ -73,9 +85,11 @@ body.light-mode .bd-mode-toggle .dropdown-toggle .theme-icon-active use {
 
 /* Make the dropdown menu completely transparent */
 .bd-mode-toggle .dropdown-menu {
-    background-color: transparent; /* Transparent background */
+    background-color: var(--background-color); /* Transparent background */
     border: none; /* Remove any borders */
     box-shadow: none; /* Remove shadow to keep it flat */
+    z-index: 9999 !important; /* Force highest priority */
+    position: absolute;
 }
 
 /* Remove outline and border from dropdown items */
