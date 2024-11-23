@@ -1,3 +1,18 @@
+@media (max-width: 768px) {
+    .navbar-brand {
+        position: absolute;
+        right: 10px; /* Aligns the logo to the right edge */
+        top: 10px; /* Vertically aligns the logo */
+    }
+    .navbar-toggler {
+        margin-left: 0; /* Ensures toggler is on the left */
+    }
+    .navbar-toggler-icon {
+        margin-right: 0; /* Prevents unexpected spacing */
+    }
+}
+
+
 /* Basic Styles and Variables for Light Mode */
 .light-mode {
     --background-color: #f9f9f9;
